@@ -1,7 +1,7 @@
 function validate() {
     var nama = document.getElementById('nama').value;
     var nrp = document.getElementById('nrp').value;
-
+    
     var type = /\d/.test(nama);
     if (nama === "" && nrp === "") {
         Swal.fire({
@@ -10,6 +10,12 @@ function validate() {
             icon: "error"
         });
         return false;
+    } else if (nama.length >= 2 && nrp.length == 10 && type == false) {
+        Swal.fire({
+            title: "Berhasil Input",
+            icon: "success"
+        });
+        return true
     } else if (nrp.length < 10) {
         Swal.fire({
             title: "Kesalahan Input",
