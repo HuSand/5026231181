@@ -30,3 +30,7 @@ Route::get('/validasi1', function () {
 Route::get('/welcome', function () {
     return view('welcome');
 });
+
+Route::get('/js1', function () {
+    return view('js1');
+});

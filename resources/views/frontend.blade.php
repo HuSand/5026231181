@@ -72,6 +72,7 @@
     .btn-custom:nth-child(4) { animation-delay: 0.8s; }
     .btn-custom:nth-child(5) { animation-delay: 1.0s; }
     .btn-custom:nth-child(6) { animation-delay: 1.2s; }
+    .btn-custom:nth-child(7) { animation-delay: 1.2s; }
 
     @keyframes fadeInUp {
       0% {
@@ -93,6 +94,7 @@
     <a href="{{ url('/pertemuan3') }}" class="btn btn-custom">Pertemuan 3</a>
     <a href="{{ url('/pertemuan4') }}" class="btn btn-custom">Pertemuan 4</a>
     <a href="{{ url('/validasi1') }}" class="btn btn-custom">Validasi 1</a>
+    <a href="{{ url('/js1') }}" class="btn btn-custom">Java Script 1</a>
     <a href="{{ url('/welcome') }}" class="btn btn-custom">Welcome Page</a>
   </div>
 
