@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="linktree.css">
+        <link rel="stylesheet" href="../css/linktree.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <title>Linktree 5026231181</title>
     </head>
@@ -112,7 +112,7 @@
 
                             <div class="d-flex align-items-center justify-content-between shadow rounded-pill custom-rounded bg-white e pill-zoom-hover" id="capsule" style="max-width: 6000px; margin: auto; padding: 12px 15px 12px 15px;">
                         
-                                <img src="img/letter.png" class="rounded-circle" style="width: 48px; height: 48px; object-fit: cover;">
+                                <img src="../img/letter.png" class="rounded-circle" style="width: 48px; height: 48px; object-fit: cover;">
                                 
                                 <div class="w-100 text-center my-2 mx-2" style="color: #083170;padding-right: 28px; font-weight: 500;">
                                     Info Rate Card & Jadwal Hindia (Melina)
@@ -170,7 +170,7 @@
 
                             <div class="d-flex align-items-center justify-content-between shadow rounded-pill custom-rounded bg-white e pill-zoom-hover" id="capsule" style="max-width: 6000px; margin: auto; padding: 12px 15px 12px 15px;">
                         
-                                <img src="img/social.png" class="rounded-circle" style="width: 24px; height: 24px; object-fit: cover;">
+                                <img src="../img/social.png" class="rounded-circle" style="width: 24px; height: 24px; object-fit: cover;">
                                 
                                 <div class="w-100 text-center my-2 mx-2" style="color: #083170;padding-right: 28px; font-weight: 500;">
                                     Twitter
@@ -195,7 +195,7 @@
 
                             <div class="d-flex align-items-center justify-content-between shadow rounded-pill custom-rounded bg-white e pill-zoom-hover" id="capsule" style="max-width: 6000px; margin: auto; padding: 12px 15px 12px 15px;">
                         
-                                <img src="img/tiktok.png" class="rounded-circle" style="width: 30px; height: 30px; object-fit: cover; fill: #083170;">
+                                <img src="../img/tiktok.png" class="rounded-circle" style="width: 30px; height: 30px; object-fit: cover; fill: #083170;">
                                 
                                 <div class="w-100 text-center my-2 mx-2" style="color: #083170;padding-right: 28px; font-weight: 500;">
                                     TikTok Team Hindia
@@ -396,7 +396,7 @@
         
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="linktree.js"></script>
+        <script src="../js/linktree.js"></script>
 
     </body>
 

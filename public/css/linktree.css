@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-image: url('img/background-hindia-mobile.png');
+    background-image: url('../img/background-hindia-mobile.png');
     font-family:Inter,sans-serif !important;
     background-attachment: fixed;
     background-size: cover;
@@ -129,7 +129,7 @@ body {
     }
     
     body {
-        background-image: url('img/background-hindia-dekstop.png');
+        background-image: url('../img/background-hindia-dekstop.png');
         background-position: center;
         background-size: cover;
         margin: 0;
@@ -140,7 +140,7 @@ body {
 
 @media screen and (min-width: 1315px) {
     body {
-        background-image: url('img/background-hindia-dekstop.png');
+        background-image: url('../img/background-hindia-dekstop.png');
         transition: background-size 1 ease-in-out;
         background-size: 100% 137%;
         background-position: center;
