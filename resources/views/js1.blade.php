@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body style="background-color: #e2e2e2;">
-    <script src="js1.js"></script>
+    <script src="../js/js1.js"></script>
     <div class="container">
         <div class="card" style="background-color: white; border-color: black;">
             <button type="button" class="btn btn-primary" id="myButton" onclick="hello()">klik disini</button>

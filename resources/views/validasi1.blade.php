@@ -33,7 +33,7 @@
             <br>
             <input type="submit" class="btn btn-success my-4 w-100" value="Daftar" onclick="validate()">
         </form>
-        <script src="validasi1.js"></script>
+        <script src="../js/validasi1.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     </div>
 </body>
