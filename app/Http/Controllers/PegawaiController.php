@@ -1,9 +1,9 @@
 <?php
- 
+
 namespace App\Http\Controllers;
- 
+
 use Illuminate\Http\Request;
- 
+
 class PegawaiController extends Controller
 {
     public function index($nama){
@@ -20,5 +20,5 @@ class PegawaiController extends Controller
      	$nrp = $request->input('_nrp');
         return "NRP : " .$nrp ."<br>Nama : ".$nama."<br> Alamat : ".$alamat. "<br> Aslinya request : " .$request ;
     }
- 
+
 }
