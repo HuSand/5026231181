@@ -5,7 +5,7 @@ use App\Http\Controllers\DosenController;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
-
+use App\Http\Controllers\KipasAnginDBController;
 Route::get('/', function () {
     return view('frontend');
 });
@@ -43,6 +43,10 @@ Route::get('/template', function () {
     return view('template');
 });
 
+Route::get('/kipasangin', function () {
+    return view('kipasangin');
+});
+
 Route::get('dosen',[DosenController::class,'index']);
 Route::get('welcome',[DosenController::class,'welcome']);
 
@@ -63,3 +67,12 @@ Route::post('/pegawai/store', [PegawaiDBController::class, 'store']); //jika for
 Route::get('/pegawai/edit/{id}',[PegawaiDBController::class, 'edit']);
 Route::post('/pegawai/update',[PegawaiDBController::class, 'update']);
 Route::get('/pegawai/hapus/{id}', [PegawaiDBController::class, 'hapus']);
+
+//route kipasanginDB
+Route::get('/kipasangin', [KipasAnginDBController::class, 'index']);
+Route::get('/kipasangin/cari', [KipasAnginDBController::class, 'cari']);
+Route::get('/kipasangin/tambah', [KipasAnginDBController::class, 'tambah']);
+Route::post('/kipasangin/store', [KipasAnginDBController::class, 'store']);
+Route::get('/kipasangin/edit/{id}', [KipasAnginDBController::class, 'edit']);
+Route::post('/kipasangin/update', [KipasAnginDBController::class, 'update']);
+Route::get('/kipasangin/hapus/{id}', [KipasAnginDBController::class, 'hapus']);
