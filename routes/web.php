@@ -6,6 +6,7 @@ use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\KipasAnginDBController;
+use App\Http\Controllers\KaryawanDBController;
 Route::get('/', function () {
     return view('frontend');
 });
@@ -76,3 +77,12 @@ Route::post('/kipasangin/store', [KipasAnginDBController::class, 'store']);
 Route::get('/kipasangin/edit/{id}', [KipasAnginDBController::class, 'edit']);
 Route::post('/kipasangin/update', [KipasAnginDBController::class, 'update']);
 Route::get('/kipasangin/hapus/{id}', [KipasAnginDBController::class, 'hapus']);
+
+//route KaryawanDBController
+Route::get('/karyawan', [KaryawanDBController::class, 'index']);
+Route::get('/karyawan/cari', [KaryawanDBController::class, 'cari']);
+Route::get('/karyawan/tambah', [KaryawanDBController::class, 'tambah']);
+Route::get('/karyawan/store', [KaryawanDBController::class, 'store']);
+Route::get('/karyawan/edit/{id}', [KaryawanDBController::class, 'edit']);
+Route::get('/karyawan/update', [KaryawanDBController::class, 'update']);
+Route::get('/karyawan/hapus/{id}', [KaryawanDBController::class, 'hapus']);
