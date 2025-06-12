@@ -114,7 +114,7 @@
                         <td class="fw-bold">{{ $p->kodepegawai }}</td>
                         <td>{{ strtoupper($p->namalengkap) }}</td>
                         <td class="fw-semibold">{{ $p->divisi }}</td>
-                        <td>{{ ucwords(strtolower($p->departemen)) }}</td>
+                        <td>{{ strtolower($p->departemen) }}</td>
                         <td class="text-center">
                             <a href="/karyawan/hapus/{{ $p->kodepegawai }}"
                                class="btn btn-sm btn-delete rounded-pill px-3 py-1"
