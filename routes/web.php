@@ -7,6 +7,9 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\KipasAnginDBController;
 use App\Http\Controllers\KaryawanDBController;
+use App\Http\Controllers\KeranjangDBController;
+use App\Http\Controllers\PageCounterDBController;
+
 Route::get('/', function () {
     return view('frontend');
 });
@@ -86,3 +89,14 @@ Route::get('/karyawan/store', [KaryawanDBController::class, 'store']);
 Route::get('/karyawan/edit/{id}', [KaryawanDBController::class, 'edit']);
 Route::get('/karyawan/update', [KaryawanDBController::class, 'update']);
 Route::get('/karyawan/hapus/{id}', [KaryawanDBController::class, 'hapus']);
+
+// route CRUD dataabase keranjangbelanja belajar_laravel
+Route::get('/keranjang', [App\Http\Controllers\KeranjangDBController::class, 'indexkeranjang']);
+Route::get('/keranjang/tambah', [App\Http\Controllers\KeranjangDBController::class, 'tambahkeranjang']);
+// Route::post('/keranjang/store', [App\Http\Controllers\KeranjangController::class, 'storekeranjang']);
+Route::get('/keranjang/tambah/{ID}', [App\Http\Controllers\KeranjangDBController::class, 'storekeranjang']);
+Route::post('/keranjang/update', [App\Http\Controllers\KeranjangDBController::class, 'updatekeranjang']);
+Route::get('/keranjang/hapus/{ID}', [App\Http\Controllers\KeranjangDBController::class, 'keranjangbelanja']);
+
+Route::get('/pagecounter', [App\Http\Controllers\PageCounterDBController::class, 'index']);
+
